@@ -19,19 +19,19 @@ public class Calculator_Skeleton {
 
 
         //get users first number
-        System.out.print("X: ");
+        System.out.print("First Number: ");
         x = input.nextDouble();
-        System.out.print("\n");
+        //System.out.print("\n");
 
         //get users Second number number
-        System.out.print("Y: ");
+        System.out.print("Second Number: ");
         y = input.nextDouble();
         System.out.print("\n");
 
         System.out.println("Add \t\t 1" + "\n" +
                 "Subtract \t 2" + "\n" +
                 "Multiply \t 3" + "\n" +
-                "Divide   \t 4");
+                "Divide   \t 4" + "\n");
 
         System.out.print("Arithmetic: ");
         z = input.nextInt();
@@ -54,7 +54,7 @@ public class Calculator_Skeleton {
         else if(z == 4)
             x = x / y;
 
-        System.out.print(x);
+        System.out.print("Answer: " +x);
 
     }
 }
