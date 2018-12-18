@@ -37,6 +37,14 @@ public class Calculator_Skeleton {
         z = input.nextInt();
         System.out.print("\n");
 
+        while(z < 1 || z > 4){
+            System.out.println("Im sorry that is an invalid option.\n" +
+                    "Please choose a valid option.");
+            System.out.print("Arithmetic: ");
+            z = input.nextInt();
+            System.out.print("\n");
+        }
+
         if(z == 1)
             x = x + y;
         else if(z == 2)
